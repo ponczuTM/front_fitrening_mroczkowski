@@ -1,0 +1,47 @@
+export const homeObjOne = {
+	id: "about",
+	lightBg: false,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: "Kim jestem...",
+	headLine: "...czyli kto stworzył tę stronę?",
+	describtion:
+		"Nazywam się Oliwer Mroczkowski - Jestem studentem Uniwersytetu Mikołaja Kopernika. Niniejsza aplikacja jest częścią praktyczną mojej pracy inżynierskiej. Zapraszam do korzystania	シ",
+	imgStart: false,
+	img: require("../../images/svg-1.svg").default,
+	alt: "SuccessImg",
+	dark: true,
+	primary: true,
+	darkText: false,
+};
+export const homeObjTwo = {
+	id: "discover",
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: true,
+	topLine: "Można stworzyć listę uczestników w dowolnym programie do edycji tekstu...",
+	headLine: "...więc dlaczego warto korzystać z Fitrening?",
+	describtion:
+		"Dzięki Fitrening masz dostęp do wszystkich informacji na temat uczestników, prowadzących zajęcia, obiektów, a nawet danych dotyczych całego projektu. Jest to narzędzie ułatwiające pracę z większą ilością osób biorących udział w danym programie",
+	imgStart: true,
+	img: require("../../images/svg-3.svg").default,
+	alt: "SuccessImg",
+	dark: false,
+	primary: false,
+	darkText: true,
+};
+export const homeObjThree = {
+	id: "signup",
+	lightBg: false,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: "Wypróbuj funkcje Fitrening",
+	headLine: "Dzięki tej aplikacji będziesz miał wgląd do wielu zintegrowanych danych ",
+	describtion: "Fitrening daje możliwość weryfikowania danych operacyjnych dotyczących sposobu korzystania z dostępu do placówek, udziału w zajęciach, wyboru konkretnych obszarów zainteresowań oraz systematyczności korzystania z dostępnych produktów",
+	imgStart: false,
+	img: require("../../images/svg-2.svg").default,
+	alt: "SuccessImg",
+	dark: false,
+	primary: true,
+	darkText: false,
+};
