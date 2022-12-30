@@ -35,7 +35,7 @@ export default function Report() {
           <FormatListNumberedIcon className="circle-icon" />
         </div>
         <Typography variant="h5" component="h5" color="white">
-          W tym panelu możesz przejrzeć i wygenrować raporty
+          W tym panelu możesz przejrzeć i wygenerować raporty
         </Typography>
         </Box>
         <center>
