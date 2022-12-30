@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import { Api } from "./common/api";
 
-export const api = new Api("https://git.heroku.com/backend-fitrening-mroczkowski.git");
+export const api = new Api("https://backend-fitrening-mroczkowski.herokuapp.com/");
 export const SCHEDULE_ITEM_KIND_CYCLIC_VALUE = 0;
 export const SCHEDULE_ITEM_KIND_SINGLE_ABSENCE_VALUE = 1;
 export const SCHEDULE_ITEM_KIND_SINGLE_PRESENCE_VALUE = 2;
