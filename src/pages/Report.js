@@ -37,23 +37,6 @@ export default function Report() {
         <Typography variant="h5" component="h5" color="white">
           W tym panelu możesz przejrzeć i wygenrować raporty
         </Typography>
-        <Typography variant="h5" component="h5" color="white">
-        </Typography>
-        <Typography variant="h5" component="h5" color="white">
-          Wspierane przeglądarki to:
-          </Typography>
-          <Typography variant="h5" component="h5" color="white">
-        <a style={{color: "yellow"}}>Google Chrome</a> <img width="15px" height="15px" src={chrome}></img>
-         </Typography>
-         <Typography variant="h5" component="h5" color="white">
-        <a style={{color: "lightgreen"}}>Microsoft Edge</a> <img width="15px" height="15px" src={edge}></img>
-         </Typography>
-         <Typography variant="h5" component="h5" color="white">
-        <a style={{color: "red"}}>Opera</a> <img width="15px" height="15px" src={opera}></img>
-         </Typography>
-         <Typography variant="h5" component="h5" color="white">
-        <a style={{color: "#fa184d"}}>Opera GX</a> <img width="15px" height="15px" src={gx}></img>
-         </Typography>
         </Box>
         <center>
             <Box>
