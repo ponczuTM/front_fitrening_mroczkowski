@@ -73,9 +73,11 @@ const Activity = () => {
     }
     return "---";
   }
+  
   function formatMoment(moment) {
-    return moment.replace("T", " ").replace(":00.000Z", "");
+    return new Date(moment).toLocaleString("pl-PL");
   }
+
   function applySchedule(params) {
     const activity = { ...params.row };
     activity.schedule = params.row.schedules.find(s => formatSchedule(s) == params.value);
