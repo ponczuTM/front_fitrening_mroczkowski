@@ -57,9 +57,9 @@ const User = () => {
               };
             }}
             rowPostProcessFunction={async (row, isNew) => {
-              if (isNew) {
+              const md5Checker = /^[a-f0-9]{32}$/gi;
+              if (!md5Checker.test(row.passwordHash))
                 row.passwordHash = MD5(row.passwordHash).toString();
-              }
             }}
             updateFunction={api.updateUser.bind(api)}
             createFunction={api.createUser.bind(api)}
