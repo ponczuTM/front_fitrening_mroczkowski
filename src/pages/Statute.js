@@ -86,7 +86,7 @@ const Statute = () => {
                     <div className="centered_div">
                         <p>
                             Użytkownik może zrezygnować z członkostwa w serwisie
-                            Fitrening w dowolnym momencie, poprzez usunięcie
+                            Fitrening w dowolnym momencie, poprzez porzucenie
                             konta.
                         </p>
                     </div>
@@ -121,17 +121,17 @@ const Statute = () => {
                             użytkownik, który ukończył 18 lat lub jest
                             pełnoletni w świetle prawa obowiązującego wmiejscu
                             zamieszkania. Osoby niepełnoletnie mogą korzystać z
-                            serwisu tylko pod nadzorem dorosłych.Serwis
+                            serwisu tylko pod nadzorem dorosłych. Serwis
                             Fitrening oraz wszelkie treści oglądane przy jego
                             użyciu przeznaczone są do dowolnego użytku, w tym
                             komercyjnego. Wokresie członkostwa Fitrening udziela
                             użytkownikowi ograniczonej i niezbywalnej licencji
-                            na dostęp do serwisu FitreningUżytkownik zobowiązuje
+                            na dostęp do serwisu Fitrening Użytkownik zobowiązuje
                             się korzystać z serwisu Fitrening, w tym ze
                             wszystkich związanych z nim usług i funkcji,
                             zgodniez obowiązującymi zasadami oraz przepisami
                             prawa, przestrzegając też innych obowiązujących
-                            ograniczeń w zakresie korzystania z serwisu ijego
+                            ograniczeń w zakresie korzystania z serwisu i jego
                             treści.
                         </p>
                     </div>
@@ -148,7 +148,7 @@ const Statute = () => {
                             Użytkownik, który założył konto w serwisie Fitrening
                             będzie mieć dostęp do takiego konta i kontrolę nad
                             nim (Właściciel Konta). Aby zapewnić sobie kontrolę
-                            nad kontem oraz zapobiecprzejęciu konta przez
+                            nad kontem oraz zapobiec przejęciu konta przez
                             nieuprawnione osoby, Właściciel Konta nie powinien
                             nikomu ujawniać hasła. Jeżeli użytkownik zapomniał
                             hasła, należy skontaktować się z właścicielem
@@ -183,10 +183,10 @@ const Statute = () => {
                             YouTube pod adresem:
                         </p>
                         <Link
-                            to="//www.youtube.com/watch?v=Ap5WA3drKeU"
+                            to="//www.youtube.com/watch?v=H3CfbtTjBnM"
                             target="_blank"
                         >
-                            https://www.youtube.com/watch?v=Ap5WA3drKeU
+                            https://www.youtube.com/watch?v=H3CfbtTjBnM
                         </Link>
                     </div>
                 <Typography sx={{ marginTop: "30px" }}></Typography>
