@@ -80,19 +80,6 @@ export default function Report() {
                     ORDER BY COUNT(*) DESC
                     `} />
                 <ReportItem 
-                    title="Najbardziej aktywne osoby z ostatniego miesiąca" 
-                    query={`
-                    SELECT firstName AS "Imię", lastName AS "Nazwisko", COUNT(*) AS "Liczba zajęć"
-                    FROM user u
-                    INNER JOIN role r ON r.id = u.roleId
-                    INNER JOIN activity a ON a.userId = u.id
-                    WHERE r.key = 'common'
-                    AND strftime('%Y-%m', a.moment) = strftime('%Y-%m', CURRENT_DATE)
-                    AND u.departmentId = ${localStorage.getItem("departmentId")}
-                    GROUP BY a.userId, firstName, lastName
-                    ORDER BY COUNT(*) DESC
-                    `} />
-                <ReportItem 
                     title="Najchętniej wybierani prowadzący" 
                     query={`
                     SELECT firstName AS "Imię", lastName AS "Nazwisko", COUNT(a.userId) AS "Liczba osób"

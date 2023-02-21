@@ -124,20 +124,6 @@ function Charts() {
         </div>
         <Typography sx={{ marginTop: "40px" }}></Typography>
         <div style={{ backgroundColor: 'white' }}>
-          <ChartItem title="Ilość zajęć, na których byli uczestnicy w ostatnim miesiącu" query={`
-          SELECT firstName || ' ' || lastName AS "Nazwisko", COUNT(*) AS "Liczba zajęć"
-          FROM user u
-          INNER JOIN role r ON r.id = u.roleId
-          INNER JOIN activity a ON a.userId = u.id
-          WHERE r.key = 'common'
-          AND strftime('%Y-%m', a.moment) = strftime('%Y-%m', CURRENT_DATE)
-          AND u.departmentId = ${localStorage.getItem("departmentId")}
-          GROUP BY a.userId, firstName, lastName
-          ORDER BY COUNT(*) DESC
-`} />
-        </div>
-        <Typography sx={{ marginTop: "40px" }}></Typography>
-        <div style={{ backgroundColor: 'white' }}>
           <ChartItem title="Ilość osób, które były u prowadzących na różnych zajęciach" query={`
           SELECT firstName || ' ' || lastName AS "Nazwisko", COUNT(a.userId) AS "Liczba osób"
           FROM user u
